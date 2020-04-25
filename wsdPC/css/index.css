@@ -147,7 +147,7 @@
 .main-bg .main-tlt .tlt-img img {
 	max-width: 100%;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 	.main-bg .main-tlt {
 		padding-top: 40px;
 		padding-bottom: 40px;
@@ -164,7 +164,7 @@
 	text-indent: 2em;
 	margin: 0 20px;
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .main-bg1 .main-con .txt {
         font-size: 14px;
     }
@@ -178,12 +178,12 @@
 	
 }
 .main-bg1 .main-con .img .outer-img {
-	position: absolute;
+    position: absolute;
     width: 50%;
     overflow: hidden;
     left: 20px;
-    top: -15px;
-    padding: 0 40px;
+    top: -25px;
+    padding: 20px 40px;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
@@ -198,6 +198,19 @@
 	width: 30%;
 	height: auto;
 	overflow: hidden;
+}
+@media (max-width: 767px) {
+    .main-bg1 .main-con .img .outer-img {
+    	width: 80%;
+    	top: -20px;
+        padding: 10px 5%;
+    }
+    .main-bg1 .main-con .img .outer-img span {
+    	font-size: 12px;
+    }
+    .main-bg1 .main-con .img .outer-img img {
+    	
+    }
 }
 .main-bg1 .main-con .img .inner-img {
 	max-width: 100%;
