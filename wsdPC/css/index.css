@@ -5,6 +5,11 @@
     overflow: hidden;
 	position: relative;
 }
+@media (max-width: 767px) {
+    .swiper-banner{
+        margin-top: 80px;
+    }
+}
 .swiper-banner .swiper-layer {
 	position: absolute;
 	max-width: 15%;
