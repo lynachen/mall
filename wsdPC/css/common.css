@@ -244,17 +244,14 @@ body {background-color: #fff;}
 	position: relative;
 }
 .common-header.fixed .common-nav {
-	background-color: rgba(255,255,255,.6);
+	background-color: rgba(255,255,255,.85);
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 @media (max-width: 767px) {
 	.common-header .common-nav {
 		height: auto;
 		padding: 15px 10px;
-		background-color: rgba(255,255,255,.8);
-	}
-	.common-header.fixed .common-nav {
-		background-color: rgba(255,255,255,.8);
+		background-color: rgba(255,255,255,.85);
 	}
 }
 /*logo*/
@@ -394,7 +391,7 @@ body {background-color: #fff;}
     top: 56px;
     right: 0;
     z-index: 999;
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.85);
     box-shadow: rgba(0,0,0,0.1) 0px 20px 60px -10px;
 	display: none;
 }
