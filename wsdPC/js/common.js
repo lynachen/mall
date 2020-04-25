@@ -10,7 +10,7 @@ $(function(){
 			$('.navbar-toggle').addClass('collapsed')
 			
 			$('html,body').animate({
-				scrollTop:$(id).offset().top - 20 + 'px'  //错位20px，以免跳转位置靠屏幕上方
+				scrollTop:$(id).offset().top - 88 + 'px'  //去掉导航栏高度
 			},500)
 		})
 		// 折叠与展开

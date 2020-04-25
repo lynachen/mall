@@ -433,9 +433,6 @@ body {background-color: #fff;}
 	    height: 40px;
 	    line-height: 40px;
 	}
-	.hvr-underline-from-center:before {
-		display: none;
-	}
 }
 /*页尾*/
 .common-footer .footer-main {
