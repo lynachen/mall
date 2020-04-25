@@ -250,7 +250,7 @@ body {background-color: #fff;}
 @media (max-width: 767px) {
 	.common-header .common-nav {
 		height: auto;
-		padding: 20px 10px;
+		padding: 15px 10px;
 		background-color: rgba(255,255,255,.8);
 	}
 	.common-header.fixed .common-nav {
@@ -391,7 +391,7 @@ body {background-color: #fff;}
 .common-nav .nav-tab-toggle .menu-item {
     position: absolute;
     width: 100%;
-    top: 66px;
+    top: 56px;
     right: 0;
     z-index: 999;
     background-color: rgba(255,255,255,.8);
