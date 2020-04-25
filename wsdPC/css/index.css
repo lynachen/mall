@@ -15,6 +15,11 @@
 	left: 20%;
 	z-index: 9;
 }
+@media (max-width: 767px) {
+    .swiper-banner .swiper-layer {
+        max-width: 30%;
+    }
+}
 .swiper-banner .swiper-layer span {
 	font-size: 14px;
 	font-weight: 600;
@@ -45,6 +50,11 @@
 .main-bg {
 	position: relative;
 	padding-bottom: 50px;
+}
+@media (max-width: 480px) {
+    .main-bg {
+        padding-bottom: 20px;
+    }
 }
 /*高斯模糊背景及位置*/
 .main-bg .half-circle-left,
@@ -129,12 +139,27 @@
 .main-bg .main-tlt .tlt-img img {
 	max-width: 100%;
 }
+@media (max-width: 480px) {
+	.main-bg .main-tlt {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+    .main-bg .main-tlt .tlt-img {
+        max-width: 50%;
+    }
+}
 /*---- 公司介绍 ----*/
 .main-bg1 .main-con .txt {
 	font-size: 20px;
 	color: #696969;
 	line-height: 1.8;
 	text-indent: 2em;
+	margin: 0 20px;
+}
+@media (max-width: 480px) {
+    .main-bg1 .main-con .txt {
+        font-size: 14px;
+    }
 }
 .main-bg1 .main-con .img {
 	max-width: 80%;
@@ -198,6 +223,16 @@
 .main-bg2 .info-item li:nth-child(even) {
 	margin-right: 0;
 }
+@media (max-width: 480px) {
+    .main-bg2 .info-item {
+        width: 85%;
+        display: block;
+    }
+    .main-bg2 .info-item li {
+    	width: 100%;
+    	margin-bottom: 30px;;
+    }
+}
 .main-bg2 .info-item li .li-img {
 	display: flex;
 	justify-content: center;
@@ -248,6 +283,15 @@
 .main-bg3 .info-item li:nth-child(2) {
 	margin: 0 6%;
 }
+@media (max-width: 480px) {
+    .main-bg3 .info-item {
+        width: 85%;
+        display: block;
+    }
+    .main-bg3 .info-item li:nth-child(2) {
+		margin: 20px 0;
+	}
+}
 .main-bg3 .info-item li .tlt {
 	font-size: 14px;
 	font-weight: 600;
@@ -288,6 +332,7 @@
 	font-size: 12px;
 	color: #696969;
 	padding-top: 20px;
+	text-align: center;
 }
 /*---- 企业文化 ----*/
 .main-bg4 .info-item {
@@ -332,4 +377,13 @@
 	font-size: 14px;
 	color: #fff;
 	padding-top: 20px;
+}
+@media (max-width: 480px) {
+    .main-bg4 .info-item {
+        width: 85%;
+        display: block;
+    }
+    .main-bg4 .info-item li:nth-child(2) {
+		margin: 20px 0;
+	}
 }
