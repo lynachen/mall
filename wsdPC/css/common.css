@@ -501,6 +501,5 @@ body {background-color: #fff;}
 .common-footer .footer-bot span {
 	font-size: 12px;
 	color: #fff;
-	padding-top: 20px;
-	padding-bottom: 12px;
+	padding: 20px 10px 12px;
 }
